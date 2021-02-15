@@ -108,7 +108,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-root',
     // specifies the template string for the MultiSelect component
-    template: `<ejs-multiselect id='multiselectelement' [dataSource]='sportsData' [fields]='fields'[placeholder]='placeholder'></ejs-multiselect>`
+    template: `<ejs-multiselect id='multiselectelement' [dataSource]='sportsData' [fields]='fields' [placeholder]='placeholder'></ejs-multiselect>`
 })
 export class AppComponent {
     constructor() {
